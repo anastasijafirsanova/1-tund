@@ -1,0 +1,39 @@
+h1 {
+  color: red;
+}
+
+h1::before {
+  content: "Pealkiri: ";
+}
+
+h1::after {
+  content: "!";
+}
+
+#main-heading {
+  text-decoration: underline;
+}
+
+.lower-heading {
+  color: darkblue;
+}
+
+li {
+  background-color: yellow;
+}
+
+.section-lists {
+  background-color: lightpink;
+}
+
+div ul li {
+  font-weight: bold;
+}
+
+a:hover {
+  font-size: 30px;
+}
+
+.blog-post p:last-child::first-letter {
+  font-size: 25px;
+}
